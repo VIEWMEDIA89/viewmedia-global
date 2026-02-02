@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- English -->
+  <url>
+    <loc>https://view-media.kr/en</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://view-media.kr/en"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://view-media.kr/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://view-media.kr/ko"/>
+  </url>
+
+  <!-- Japanese -->
+  <url>
+    <loc>https://view-media.kr/ja</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Chinese Simplified -->
+  <url>
+    <loc>https://view-media.kr/zh-CN</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Chinese Traditional -->
+  <url>
+    <loc>https://view-media.kr/zh-TW</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Korean -->
+  <url>
+    <loc>https://view-media.kr/ko</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Spanish -->
+  <url>
+    <loc>https://view-media.kr/es</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- French -->
+  <url>
+    <loc>https://view-media.kr/fr</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- German -->
+  <url>
+    <loc>https://view-media.kr/de</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Russian -->
+  <url>
+    <loc>https://view-media.kr/ru</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Arabic -->
+  <url>
+    <loc>https://view-media.kr/ar</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Thai -->
+  <url>
+    <loc>https://view-media.kr/th</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Vietnamese -->
+  <url>
+    <loc>https://view-media.kr/vi</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

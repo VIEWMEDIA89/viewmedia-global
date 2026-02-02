@@ -1,0 +1,27 @@
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://view-media.kr/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow specific search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
