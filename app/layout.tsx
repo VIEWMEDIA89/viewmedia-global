@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
@@ -31,8 +32,12 @@ export const metadata: Metadata = {
     description: 'Leading LED rental and event production company in Seoul, Korea',
     images: ['/og-image.jpg'],
   },
-  viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -46,21 +51,22 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        
-        {/* Google Ads Tag */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17925811977"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'AW-17925811977');
-            `,
-          }}
-        />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17925811977"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17925811977');
+          `}
+        </Script>
+        {children}
+      </body>
     </html>
   );
 }
